@@ -84,6 +84,13 @@ a {
   font-size: 14px
 }
 
+img {
+    max-width:350px;
+    max-height:160px;
+    width:auto;
+    height:auto;
+}
+
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
