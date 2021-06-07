@@ -147,8 +147,11 @@ span.highlight {
     flex-direction: column;
   }
 
+  /*td {
+    width: 100% !important;
+  }*/
   td {
-width: 100%;
+width: 100% !important;;
 max-width: 100%
 }
 
