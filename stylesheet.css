@@ -136,3 +136,18 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+@media screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  td {
+    width: 100% !important;
+  }
+}
